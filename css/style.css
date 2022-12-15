@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;500;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.container {  /* allineamento intero doc */
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.row{
+    display: flex;
+}
+
+.ul-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ul-header>li{
+    padding: 12px;
+}
+.row.header{
+    color: white;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.col.login{
+
+    display: flex;
+    justify-content: flex-end;
+}
+.col.login >button, .footer-both button{
+    line-height: 25px;
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px ;
+    border: none;
+}
+
+.debug header{
+    background-color:#2a5ee8;
+    padding: 15px;
+}
+
+.row.head .col{
+    flex-basis: calc(100% / 4);
+}
+
+
+.jumbo{
+    min-height: 600px;
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y:30% ;
+
+}
+
+.row.jumbo{
+    background-repeat: no-repeat;
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo-card{
+    color: white;
+    text-align: center;
+    max-width: 1000px;
+}
+.jumbo-card>h1{
+    font-weight: 800;
+    font-size: 56px;
+    padding: 20px;
+}
+.jumbo-card>p{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.jumbo-card button{
+    cursor: pointer;
+    font-weight:bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 35%;
+    padding: 15px;
+    background-color: white;
+    margin-right: 10px;
+}
+.jumbo-card button.black{
+    background-color: #23272a;
+    color: white;
+}
+.image{
+    padding: 120px 0;
+    min-height: 500px ;
+}
+.color{
+    background-color: #D3D3D3;
+}
+.row.intro{
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+p{
+    font-size: 20px;
+
+}
+.column-image{
+    flex-basis: 60%;
+}
+
+.column-text{
+    flex-basis: 40%;
+
+}
+
+.row.intro.reverse{
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.download{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.download>h3{
+    font-size: 32px ;
+}
+.download>button{
+    color: white;
+    line-height:40px;
+    border-radius: 20px;
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px ;
+    border: none;
+    background-color: #5865f2;
+}
+.row-footer{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 100px;
+
+
+}
+.column-footer{
+    min-width:calc(100% / 12);
+    flex-grow: 1;
+}
+.column-footer ul>li{
+    padding: 5px;
+    color: white;
+}
+
+.column-footer ul li:first-child{
+    color:#5865f2 ;
+    font-weight: bold;
+}
+footer{
+    background-color:#23272a;
+}
+
+.column-footer.big{
+    flex-basis: 16%;
+    flex-grow: 1;
+
+
+}
+.column-footer>h4{
+    color: #5865f2;
+    font-size: 32px;
+    
+}
+.language-footer{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+} 
+.language-footer>img{
+    height: 20px;
+    gap: 3px;
+}
+.language-footer>span{
+    color: white;
+}
+hr{
+    border: 1px solid #5865f2;
+}
+.footer-both{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.footer-both button{
+    background-color: #5865f2;
+    color: white;
+}
