@@ -210,7 +210,6 @@ footer{
 }
 .language-footer{
     margin-top: 10px;
-    display: flex;
     align-items: center;
 } 
 .language-footer>img{
@@ -235,4 +234,8 @@ hr{
 
 svg{
     transform:translateY(20px);
+}
+.social-icon{
+    color: white;
+    padding-top: 10px;
 }
