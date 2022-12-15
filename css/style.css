@@ -239,3 +239,6 @@ svg{
     color: white;
     padding-top: 10px;
 }
+.social-icon>i{
+    padding: 5px;
+}
